@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.header{
+height :100vh;
+background-image: url('../img/shutterstock_277750193.jpg');
+background-size: cover;
+text-align: center;
+overflow:hidden ;
+}
+.contant{
+margin-top: 0px;
+color:white
+}
+.contant h1{
+    font-size: 70px;
+    margin-bottom: 30px;
+    font-family: "Alegreya";}
+.contant p{
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-family: "Dancing Script";
+
+}
+.contant button{
+  padding: 15px;
+  cursor: pointer;
+  font-family: "Alegreya Sans";
+  border-radius: 5%;
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right:20px ;
+  font-weight: 700;
+  border: none;
+ 
+
+}
+.contant button:hover{
+   background-color: rgb(156, 142, 142);
+  
+  }
+.contant .learn{
+  background-color: rgb(223, 194, 155);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+  .contant .learn:hover{
+    background-color: white;
+    color: black;
+  }
+.navbar{
+    overflow: auto;
+    position: fixed;
+    top:0px;
+    width: 100%;
+}
+.nav{
+    float:left;
+    width: 60%;
+    margin-top: 30px;
+
+}
+.logo{
+    float:left;
+    width: 40%;
+
+}
+.logo img{
+width: 30%;
+
+}
+.nav ul li{
+    display:inline-block;
+    width: 80px;
+}
+.nav ul li a{
+color: white;
+font-size: 20px;
+
+}
+.overlay
+{
+background-color:rgba(0,0,0,0.4);
+height: 100vh;
+}
+.center {
+text-align: center;
+}
+.cent img{
+    margin-top: 80px;
+}
+.cent h2 {
+    font-family: "Alegreya";
+    font-size: 36px;
+
+}
+.cent h3 {
+    font-family: "Dancing Script";
+    color: #c1ab84 !important;
+    font-size: 30px;
+    
+}
+.cent p{
+    color: #686868;
+    font-family: "Alegreya Sans";
+    text-align: left;
+    font-size: 25px;
+    font-weight: 400;
+    color: #686868;
+}
+.cent{
+display: inline-block;
+width: 40%;
+}
+.center .cent .icon-list li {
+    padding-left: 66px;
+    margin-bottom: 8px;
+}
+
+ .center .cent .icon-list  li i 
+{
+    float: left;
+}
+.center .cent .icon-list  li span
+{
+    float: left;
+    font-family: "Alegreya Sans";
+    font-size: 22px;
+    color: #686868;
+
+}
+.icon{
+    margin-bottom: 35px;
+}
+.icon  .icon-list{
+ padding-left: 0;
+}
+
+.icon-list li i{
+    background-color: #c1ab84 !important;
+    margin-right: 10px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    display: inline-block;
+}
+.icon-list li {
+    list-style: none;
+    padding: 16px 0;
+    position: relative;
+    padding-left: 52px;
+    display: flex;
+    
+}
+
+.center .cent .icon-list li i{
+   
+   padding-top: 20px;
+   padding-left: 7px;
+   padding-right: 7px;
+   margin-right: 5px;
+   width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    font-size: 24px;
+    top: 2px;
+    color:white
+}
+
+
+
+
+
+.section img
+{
+width:480px;
+height: 404px;
+margin-top: 80px;
+
+}
+.dive
+{
+text-align: center;
+background-color: #eeeeee;
+}
+.section
+{
+display:inline-block ; 
+width: 40%;
+}
+.section h2
+{
+    font-family: "Alegreya";
+    margin-bottom: 10px;
+    font-size: 36px;
+    text-align: left;
+}
+.section h3{
+font-family: "Dancing Script";
+color: #c1ab84 ;
+font-size: 28px;
+text-align: left;
+margin-bottom: 10px;
+
+}
+
+.section p
+{
+text-align: left;
+margin-bottom: 30px;
+font-family: "Alegreya Sans";
+font-size: 18px;
+line-height: 1.5;
+}
+
+.dive .section .razan .ull li
+{
+text-align: left;
+font-family: "Alegreya Sans";
+font-size: 18px;
+line-height: 2;
+margin-bottom: 30px;
+}
+.dive .section .razan .ull li i{
+    color: #c1ab84;
+}
+@media screen  and (max-width:576px)
+{
+  .nav
+  {
+  width:100%;
+  }
+ .sec{width:100%}
+.cent{
+    width: 100%;
+    
+   }
+   .cent h2{
+    text-align: left;
+   }
+   .cent h3{
+    text-align: left;
+   }
+   .section
+   {
+    width: 100%;
+   }
+   .section img{
+   float: left;
+   }
+.menu{
+    display: block;
+}
+  
+}
+
+.scroll
+{
+    background-attachment: fixed;
+    padding-top: 250px !important;
+    padding-bottom: 250px !important;
+    background-image: url("../img/WhatsApp\ Image\ 2023-07-25\ at\ 11.48.39\ PM.jpeg");
+}
+
+.menu .address h2
+{
+text-align: center;
+font-family: "Alegreya";
+color: #253048;
+font-size: 36px;
+}
+.menu .address h3{
+    font-family: "Dancing Script";
+    font-weight: normal; 
+    font-size: 28px;
+    text-align: center;
+    color: #c1ab84 !important;
+}
+.desc h4
+{
+    font-family: "Alegreya";
+    color: #253048;
+    font-size: 21px;
+  
+}
+.desc p
+{
+    font-weight: 400;
+    color: #686868;
+    text-align: center;
+    margin-top: 20px;
+}
+.orders{
+   text-align: center;
+}
+.sec
+{
+margin-top: 40px;
+width:33.33%;
+float: left;
+}
+.sec img{
+    width: 100%;
+}
+.address{
+    margin-top: 40px;
+}
+
+.desc h4{
+    margin-top: 15px;
+}
+.but input{
+    color: white;
+    background-color: #c1ab84 ;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+    border-radius:5%;
+    border: none;
+}
+.but {
+    text-align: center;
+}
+.icons h2
+{
+    color: #253048;
+    font-size: 36px;
+    font-family: "Alegreya";
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.icons p
+{
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+    font-weight: 400;
+    color: #686868;
+    
+}
+.icons .icon-1 li span
+{
+    font-weight: 400;
+    color: #686868;
+    line-height: 1.86em;
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+}
+.icons {
+    margin-top: 20px;
+}
+.icons .icon-1 li {
+    margin-top: 15px;
+}
+
+  .location
+  {
+  
+    text-align: center;
+  }
+.icons
+{
+    display: inline-block;
+    width: 40%;
+}
+.icons iframe{
+    width:500px;
+     height:470px   
+}
+.location .icons
+{
+    text-align: left;
+}
+
+
+.icons .icon-1 li i {
+
+background-color: #c1ab84 !important;
+border-radius: 100%;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+color: white;
+}
+.footers{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #403d38;
+    height: 400px;
+}
+.footer
+{
+    display: inline-block;
+    width: 20%;
+}
+.footer h4
+{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-family: "Alegreya";
+    font-weight: 400;
+    margin-top: 20px;
+}
+.footer p
+{
+    color: #969696;
+    font-size: 16px;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-family: "Alegreya Sans";
+    text-align: left;
+
+}
+.footer  ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: "Alegreya Sans";
+}
+.imgee
+{
+    background-color:  #554f4f;
+    height: 400px;
+}
+
+.imgee img
+{
+text-align: center;
+margin: 50px 100px  100px 500px;
+}
+.imgee p{
+    color: #777;
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+   margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer ul li  a
+{
+    color: #A9A9A9;
+    padding-bottom: 0;
+    display: inline;
+    font-family: "Alegreya Sans";
+    font-size: 16px;
+   
+}
+.footer .razan li
+{
+    color: #969696;
+    font-size: 16px;
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.footer ul  li span{
+    color: #969696;
+    font-size: 16px;
+    font-family: "Alegreya Sans";   
+     line-height: 1.86em;
+   
+}
+.footer ul  li i{
+    color: #969696;   
+}
